@@ -1,0 +1,216 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7;
+   
+}
+
+::selection {
+    background: #ffb7b7; /* WebKit/Blink Browsers */
+  }
+img{
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header{
+
+
+    display: flex;
+    align-items: center;
+    
+    
+
+
+
+ 
+}
+
+.top-nav{
+    background-image: url("/images/background.jpg");
+    background-size: cover;
+    
+ 
+    
+    
+}
+.logo-mobile{
+    margin-right: auto;    
+    
+}
+
+.menu-button{
+    color: #FFFFFF;
+    font-size: 2.5rem;
+     cursor: pointer;
+    
+
+}
+
+.nav{
+ 
+     background: linear-gradient(rgba(0, 0, 0, 0.377),rgba(255, 255, 255, 0.061));
+    display: none;
+     transition: all ease-in 2s;
+     width: 100%;
+
+     li{
+         list-style-type: none;
+         text-align: center;
+         padding:  .7rem 0;
+         border-bottom: 2px solid #FFFFFF;
+     }
+     
+}
+.nav a{
+
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    transition:0.3s;
+  
+}
+
+
+.logo-desktop{
+    display: none;
+}
+.nav a:last-child{
+    padding-bottom: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.our-motto{
+    color: #FFFFFF;
+    text-align: center;
+   
+    padding-bottom: 5rem;
+}
+
+.btn{
+  
+  background: #36b3a8;
+  padding: .7rem;
+  
+  display: inline-block;
+  border-radius: 5px;
+  margin-bottom: .7rem;
+  color: #FFFFFF;
+  letter-spacing: .05rem;
+  text-transform: uppercase;
+
+}
+
+.whatwe-do {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.card-description{
+    text-align: center;
+    padding: 1.5rem;
+    
+}
+
+.card-title{
+    text-align: center;
+    color: #36b3a8;
+    font-weight: normal;
+}
+
+.card-btn{
+    display: block;
+    color: #36b3a8;
+    padding-top: 1rem;
+}
+
+
+.icon{
+  
+ width: 30px;
+ padding-left: .5rem;
+   
+}
+.social-icons{
+ 
+
+ padding: 1rem;
+
+   background: #35c2b6;
+    text-align: center;
+}
+@media(min-width:620px){
+    .menu-button{
+        display: none;
+    }
+
+    .logo-desktop{
+        display: block;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+       
+
+    ul {
+          margin-left: auto;
+          margin-right: 2rem;
+        li{
+            display: inline-block;
+            border-bottom: none;
+            padding-left: .5rem;
+        }
+    }
+        
+    }
+
+    .logo-mobile{
+        display: none;
+    }
+
+    .header{
+        display: none;
+    }
+
+    .heading{
+        font-size: 2rem;
+        font-style: italic;
+    }
+   .primary-heading{
+       font-size: 4rem;
+   }
+    
+   .description{
+       width: 50%;
+       margin: 0 auto;
+       color: rgba(26,26,26,.7);
+   }
+
+   .cards{
+       display: grid;
+       grid-template-columns: 50% 50%;
+       padding-top: 4rem;
+       width: 70%;
+   }
+
+    
+   .card-description{
+       width: 80%;
+       margin-top: -2rem;
+   }
+}
+
+
+.footer{
+    background: #36b3a8;
+    padding: 2rem;
+    text-align: center;
+}
