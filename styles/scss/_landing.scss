@@ -30,7 +30,7 @@ img{
 }
 
 .top-nav{
-    background-image: url(/images/background.jpg);
+    background-image: url(/../images/background.jpg);
     background-size: cover;
     
  
@@ -46,6 +46,9 @@ img{
     color: #FFFFFF;
     font-size: 2.5rem;
      cursor: pointer;
+
+
+    
     
 
 }
@@ -221,6 +224,10 @@ a{
     border:2px solid #FFFFFF;
     border-radius: 300px;
     padding: 1rem;
+
+    &:hover{
+        background-color: #35c2b6;
+    }
 
 }
 

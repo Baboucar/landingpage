@@ -318,7 +318,7 @@ img {
   align-items: center; }
 
 .top-nav {
-  background-image: url(/images/background.jpg);
+  background-image: url(/../images/background.jpg);
   background-size: cover; }
 
 .logo-mobile {
@@ -453,5 +453,7 @@ a {
   border: 2px solid #FFFFFF;
   border-radius: 300px;
   padding: 1rem; }
+  .btn-take-action:hover {
+    background-color: #35c2b6; }
 
 /*# sourceMappingURL=main.css.map */
