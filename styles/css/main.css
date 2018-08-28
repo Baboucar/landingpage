@@ -327,12 +327,13 @@ img {
 .menu-button {
   color: #FFFFFF;
   font-size: 2.5rem;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: all ease  .5s; }
 
 .nav {
   background: linear-gradient(rgba(0, 0, 0, 0.377), rgba(255, 255, 255, 0.061));
   display: none;
-  transition: all ease-in 2s;
+  transition: all ease  .5s;
   width: 100%; }
   .nav li {
     list-style-type: none;
@@ -344,7 +345,7 @@ img {
   text-decoration: none;
   text-align: center;
   color: #FFFFFF;
-  transition: 0.3s; }
+  transition: all ease  .5s; }
 
 .logo-desktop {
   display: none; }
@@ -401,6 +402,13 @@ a {
   .menu-button {
     display: none; }
 
+  .btn-take-action {
+    border: 2px solid #FFFFFF;
+    border-radius: 300px;
+    padding: 1rem; }
+    .btn-take-action:hover {
+      background-color: #35c2b6; }
+
   .logo-desktop {
     display: block; }
 
@@ -448,12 +456,5 @@ a {
   background: #36b3a8;
   padding: 2rem;
   text-align: center; }
-
-.btn-take-action {
-  border: 2px solid #FFFFFF;
-  border-radius: 300px;
-  padding: 1rem; }
-  .btn-take-action:hover {
-    background-color: #35c2b6; }
 
 /*# sourceMappingURL=main.css.map */
